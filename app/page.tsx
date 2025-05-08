@@ -7,7 +7,7 @@ import InteractiveButton from './components/InteractiveButton';
 import InteractiveLink from './components/InteractiveLink';
 
 // Make the page dynamic
-export const dynamicPage = 'force-dynamic';
+export const dynamic = 'force-dynamic';
 
 export default async function Home() {
   // Fetch products and categories from Supabase
